@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .root {
     font-size: 16px;
     font-family: "Roboto";
@@ -58,7 +62,12 @@
 
 .intro-text_wrapper {
     outline: 1px green dashed;
-    height: 760px;
+    height: 830px;
+
+    position: relative;
+    top: 270px;
+
+    left: 312px;
 }
 
 .intro-text {
@@ -69,7 +78,7 @@
 }
 
 .intro-order_info {
-    outline: 1px yellow dashed;
+    outline: 1px blue dashed;
     height: 130px;
     color:white;
 }
@@ -80,4 +89,32 @@
 
 .intro-data_timer {
     color:white;
+}
+
+.intro-data_timer {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    width: 510px;
+}
+
+.data_timer-block {
+    width: 102px;
+    height: 112px;
+    background-color: #121212;
+    text-align: center;
+}
+
+.data_timer-number {
+    margin-top: 20%;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50.4px;
+}
+
+.data_timer-text {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
 }
