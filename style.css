@@ -16,13 +16,14 @@ body {
 }
 
 .header {
-    outline: 1px red dashed;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 70px;
     position: fixed; 
-    width: 100%;    
+    width: 100%;
+    background-color: rgba(18, 18, 18, 0.5);
+    z-index: 99;
 }
 
 .header-icon {
@@ -47,6 +48,7 @@ body {
 .header-list_menu li a {
     text-decoration: none;
     color: blue;
+    color: #fff;
 }
 
 
@@ -61,7 +63,6 @@ body {
 }
 
 .intro-text_wrapper {
-    outline: 1px green dashed;
     height: 830px;
 
     position: relative;
@@ -78,10 +79,27 @@ body {
 }
 
 .intro-order_info {
-    outline: 1px blue dashed;
     height: 130px;
     color:white;
+    background-color: #121212;
 }
+
+.intro-order_info button {
+    width: 169px;
+    height: 44px;
+
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+
+    border-radius: 50px;
+    border: 0;
+}
+
+
 
 .intro-text_wrapper {
 
@@ -102,11 +120,15 @@ body {
     width: 102px;
     height: 112px;
     background-color: #121212;
-    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
 }
 
 .data_timer-number {
-    margin-top: 20%;
     font-family: "Roboto";
     font-size: 36px;
     font-weight: 700;
@@ -118,3 +140,74 @@ body {
     font-size: 16px;
     font-weight: 400;
 }
+
+.intro-order_info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+
+.order_info-students {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 251px;
+    height: 58px;
+}
+
+.students-all-text {
+    color: rgba(255, 255, 255, 0.4);
+
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.students-all-number {
+    color: rgba(255, 255, 255, 1);
+
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.students-all {
+    display: flex;
+    justify-content:space-between;
+}
+
+
+.order_info-total {
+    display: flex;
+    height: 67px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.total-salary {
+    display: flex;
+    width: 279px;
+    justify-content: space-between;
+}
+
+.progress_bar-limits {
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress_bar-line {
+    height: 6px;
+    width: 714px;
+
+    background-color: #fff;
+}
+
+.total-progress_bar {
+    display: flex;
+    flex-direction: column;
+    height: 35px;
+
+    justify-content: space-between;
+}
+
