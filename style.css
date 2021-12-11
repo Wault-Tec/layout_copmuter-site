@@ -10,6 +10,7 @@ body {
 
 .root-intro {
     height: 960px;
+    width: 1920px;
     background-image: url("./static/img/main-screen__bgc.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -64,7 +65,7 @@ body {
 
 .intro-text_wrapper {
     height: 830px;
-
+    width: 920px;
     position: relative;
     top: 270px;
 
@@ -76,12 +77,6 @@ body {
     font-family: "Roboto";
     font-weight: 700;
     font-size: 64px;
-}
-
-.intro-order_info {
-    height: 130px;
-    color:white;
-    background-color: #121212;
 }
 
 .intro-order_info button {
@@ -142,10 +137,12 @@ body {
 }
 
 .intro-order_info {
+    height: 130px;
+    color:#fff;
+    background-color: #121212;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    color: #fff;
 }
 
 .order_info-students {
@@ -191,6 +188,10 @@ body {
     justify-content: space-between;
 }
 
+.total-salary-text {
+    color: rgba(255, 255, 255, 0.4);
+}
+
 .progress_bar-limits {
     display: flex;
     justify-content: space-between;
@@ -211,3 +212,9 @@ body {
     justify-content: space-between;
 }
 
+.order_info-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1296px; 
+}
