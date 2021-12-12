@@ -6,6 +6,7 @@ body {
     font-size: 16px;
     font-family: "Roboto";
     font-weight: 400;
+    color:#fff;
 }
 
 .root-intro {
@@ -202,6 +203,8 @@ body {
     width: 714px;
 
     background-color: #fff;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 40.72%, #fff 100%);
+
 }
 
 .total-progress_bar {
@@ -217,4 +220,34 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 1296px; 
+}
+
+.root-content {
+    background-image: url("./static/img/bgc.svg");
+    background-size: 100%;
+    background-repeat: repeat;
+    width: 100vw;
+
+}
+
+.occupation {
+
+}
+
+.occupation__wrapper {
+    width: 1301px;
+   /* height: 542px; */
+}
+
+.occupation__img__border {
+
+    box-sizing: border-box;
+    width: 526px;
+    height: 499px;
+
+    border: 30px solid;
+
+    border-image-source: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+
+
 }
