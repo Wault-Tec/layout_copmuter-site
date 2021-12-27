@@ -7,11 +7,17 @@ body {
     font-family: "Roboto";
     font-weight: 400;
     color:#fff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .root-intro {
     height: 960px;
-    width: 1920px;
+    /* width: 1920px; */
     background-image: url("./static/img/main-screen__bgc.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -25,6 +31,7 @@ body {
     height: 70px;
     position: fixed; 
     width: 100%;
+    max-width: 1920px;
     background-color: rgba(18, 18, 18, 0.5);
     z-index: 99;
 }
@@ -234,7 +241,7 @@ h2 {
     background-image: url("./static/img/bgc.svg");
     background-size: 100%;
     background-repeat: repeat;
-    width: 100vw;
+    width: 1920px;
 
 }
 
