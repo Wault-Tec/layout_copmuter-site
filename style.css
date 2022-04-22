@@ -297,7 +297,8 @@ p {
     font-family: "Roboto";
     font-size: 16px;
     font-weight: 400;
-    line-height: 25.6px;
+    line-height: 25.6px; 
+    margin: 0;
 }
 
 .fast-start__header {
@@ -413,9 +414,28 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .programm-section__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.programm-section__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 67.2px;
+}
+
+
+.programm-section__subtitle {
+    color:rgba(255, 255, 255, 0.5);
+    width: 411px;
+    text-align: center;
+    margin-top: 30px;
     
 }
 
@@ -439,8 +459,55 @@ h3 {
     justify-content: space-between;
 }
 
-.programm-section__center_left div {
+.programm-section__center_left div, .programm-section__center_right div {
     width: inherit;
     height: 1px;
     background-color: rgba(256, 256, 256, 0.3);
 }
+
+.programm-section__center_right {
+    height: 380px;
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.programm-section__icon {
+    margin-bottom: 31px;
+}
+
+.programm-section__left {
+    height: 657px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.programm-section__rigth {
+    height: 475px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 36px;
+    text-align: left;
+}
+
+.programm-section__week{
+    width: 228px;
+}
+
+.programm-section__week-number {
+    font-size: 14px;
+    line-height: 22.4px;
+    color:rgba(255, 255, 255, 0.5);
+    margin-bottom: 15px;
+}
+
+.programm-section__week-description {
+    font-size: 18px;
+    line-height: 28.8px;
+}
+
